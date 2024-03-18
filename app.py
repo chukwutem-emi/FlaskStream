@@ -25,9 +25,7 @@ taskField = {
     "id": fields.Integer,
     "name": fields.String
   }
-# @app.get("/<int:pk>")
-# def hello():
-#     return "hello world!"
+
 
 class items(Resource):
     @marshal_with(taskField)
